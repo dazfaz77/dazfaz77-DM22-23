@@ -1,0 +1,7 @@
+echo "# dazfaz77-DM22-23" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dazfaz77/dazfaz77-DM22-23.git
+git push -u origin main

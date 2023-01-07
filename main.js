@@ -2,8 +2,8 @@
 var imgActuelle = 0;
 
 // tableau listant toutes les images
-var images = ["/img/rayane.png","/img/Alicia.png","/img/amal.png","/img/asia.png","/img/axel.png","/img/fredd.png","/img/khaoula.png"
-,"/img/lea.png","/img/luka.png","/img/kevin.png","/img/mehdi.png","/img/najet.png","/img/soumaya.png","/img/tom.png","/img/yanis.png"];
+var images = ["img/rayane.png","img/Alicia.png","img/amal.png","img/asia.png","img/axel.png","img/fredd.png","img/khaoula.png"
+,"img/lea.png","img/luka.png","img/kevin.png","img/mehdi.png","img/najet.png","img/soumaya.png","img/tom.png","img/yanis.png"];
 
 
 // tableau listant toutes les légendes
