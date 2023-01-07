@@ -9,19 +9,19 @@ var images = ["img/rayane.png","img/Alicia.png","img/amal.png","img/asia.png","i
 // tableau listant toutes les légendes
 var legendes = [
     "Se pardonner et s’accepter tel que l’on est,voila ce que signifie être fort.", // rayane
-    "",        // alicia
+    "xxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",        // alicia
     " Il n’y a qu’une seule réussite : arriver à vivre sa vie comme on l’entend.",  // alicia
-    "" ,        // asia
-    "" ,        // axel
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" ,        // asia
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx" ,        // axel
     "Tous seul on va vite , ensemble on vas <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10'>p</a>lus loin..." ,        // fredd
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
-    "",         // luka
-    ""  ,      // kevin
-    ""  ,       // mehdi
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx",         // luka
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxx"  ,      // kevin
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxx"  ,       // mehdi
     "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre..."  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
-    "",          // tom
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxx",          // tom
     "Rien n'est Impossible"  , // yanis
     
 ];

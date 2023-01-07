@@ -7,12 +7,18 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+}
     
 
+#fond {
+    
+    background-color: black;
+    
 
+}
   
    
-}
+
 body img{
     background-image: url(img/2.png);
     background-repeat: no-repeat;
@@ -26,7 +32,7 @@ body img{
 #diaporama{
     max-width:100%;
     margin:5%;
-    box-shadow: 0px 0px 20px 10px rgb(213, 205, 164);
+    box-shadow: 0px 0px 5px 5px rgb(213, 205, 164);
     position:relative;
     border-radius: 80%;
     
