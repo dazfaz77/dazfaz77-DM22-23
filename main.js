@@ -19,7 +19,7 @@ var legendes = [
     "",         // luka
     ""  ,      // kevin
     ""  ,       // mehdi
-    "La vie est un mystère qu'il faut vivre \n et non un problème qu'il faut résoudre..."  , // najet
+    "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre..."  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
     "",          // tom
     "Rien n'est Impossible"  , // yanis
