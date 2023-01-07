@@ -63,8 +63,15 @@ function majImage(){
     diaporama.className="";
     diaporama.style.opacity=0;
     setTimeout(function(){
-        diaporama.className="animate__animated animate__fadeInLeft";
+        diaporama.className="animate__animated animate__rollIn";
         image.setAttribute("src",images[imgActuelle]);
         legende.innerHTML=legendes[imgActuelle];
     },100);
+}
+
+function changeColor() {
+   // Génère une couleur aléatoire
+   let color = '#'+Math.floor(Math.random()*16777215).toString(16);
+   // Modifie la couleur de fond de l'élément "diaporama"
+   document.getElementById("diaporama").style.backgroundColor = color;
 }

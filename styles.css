@@ -6,7 +6,8 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    background:rgb(16, 16, 16);
+    background-color: black;
+    
 
 
   
@@ -16,7 +17,9 @@ body img{
     background-image: url(img/2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 40px
+    background-position: 0px 40px;
+    
+
 
 }
 
@@ -79,7 +82,7 @@ body img{
     font-family: 'Allura', cursive;
     padding:5px;
     box-sizing: border-box;
-    border-radius: 50px;
+    border-radius: 20px;
     box-shadow: 0 -4px 6px rgba(255, 197, 143, 0.5), 0 2px 4px rgba(255, 197, 143, 0.3);
     box-shadow: 0 4px 6px rgba(255, 197, 143, 0.5), 0 -2px 4px rgba(255, 197, 143, 0.3);
 }
@@ -89,7 +92,7 @@ a {
     color: red;
 }
 
-@media only all and (max-width:800px){
+@media only all and (max-width:900px){
 
     #body{max-width:100%;
         width:50%;
@@ -106,7 +109,7 @@ a {
         font-family: 'Allura', cursive;
         padding:5px;
         box-sizing: border-box;
-        border-radius: 30px;
+        border-radius: 20px;
         box-shadow: 0 -4px 6px rgba(255, 197, 143, 0.5), 0 2px 4px rgba(255, 197, 143, 0.3);
     box-shadow: 0 4px 6px rgba(255, 197, 143, 0.5), 0 -2px 4px rgba(255, 197, 143, 0.3);
     }
