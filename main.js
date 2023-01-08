@@ -76,13 +76,13 @@ function changeColor() {
 }
 
 const fonds = [
-    '/backgroungimage/1.png','/backgroungimage/5.png','/backgroungimage/6.png','/backgroungimage/7.png','/backgroungimage/9.png','/backgroungimage/10.png','/backgroungimage/11.png','/backgroungimage/12.png','/backgroungimage/13.png','/backgroungimage/14.png','/backgroungimage/15.png','/backgroungimage/20.png','/backgroungimage/23.png','/backgroungimage/26.png','/backgroungimage/29.png','/backgroungimage/30.png','/backgroungimage/31.png','/backgroungimage/32.png','/backgroungimage/33.png','/backgroungimage/36.png',
-    '/backgroungimage/37.png','/backgroungimage/40.png','/backgroungimage/51.png','/backgroungimage/52.png','/backgroungimage/53.png',
-    '/backgroungimage/3.jpg','/backgroungimage/4.jpg','/backgroungimage/16.jpg','/backgroungimage/17.jpg','/backgroungimage/18.jpg',
-    '/backgroungimage/21.jpg','/backgroungimage/24.jpg','/backgroungimage/25.jpg','/backgroungimage/27.jpg','/backgroungimage/28.jpg',
-    '/backgroungimage/35.jpg','/backgroungimage/38.jpg','/backgroungimage/39.jpg','/backgroungimage/41.jpg','/backgroungimage/42.jpg',
-    '/backgroungimage/43.jpg','/backgroungimage/44.jpg','/backgroungimage/45.jpg','/backgroungimage/46.jpg','/backgroungimage/47.jpg',
-    '/backgroungimage/48.jpg','/backgroungimage/49.jpg','/backgroungimage/50.jpg','/backgroungimage/54.jpg',
+    'backgroungimage/1.png','backgroungimage/5.png','backgroungimage/6.png','backgroungimage/7.png','backgroungimage/9.png','backgroungimage/10.png','backgroungimage/11.png','backgroungimage/12.png','backgroungimage/13.png','backgroungimage/14.png','backgroungimage/15.png','backgroungimage/20.png','backgroungimage/23.png','backgroungimage/26.png','backgroungimage/29.png','backgroungimage/30.png','backgroungimage/31.png','backgroungimage/32.png','backgroungimage/33.png','backgroungimage/36.png',
+    'backgroungimage/37.png','backgroungimage/40.png','backgroungimage/51.png','backgroungimage/52.png','backgroungimage/53.png',
+    'backgroungimage/3.jpg','backgroungimage/4.jpg','backgroungimage/16.jpg','backgroungimage/17.jpg','backgroungimage/18.jpg',
+    'backgroungimage/21.jpg','backgroungimage/24.jpg','backgroungimage/25.jpg','backgroungimage/27.jpg','backgroungimage/28.jpg',
+    'backgroungimage/35.jpg','backgroungimage/38.jpg','backgroungimage/39.jpg','backgroungimage/41.jpg','backgroungimage/42.jpg',
+    'backgroungimage/43.jpg','backgroungimage/44.jpg','backgroungimage/45.jpg','backgroungimage/46.jpg','backgroungimage/47.jpg',
+    'backgroungimage/48.jpg','backgroungimage/49.jpg','backgroungimage/50.jpg','backgroungimage/54.jpg',
     
     
     
