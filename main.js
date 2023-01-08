@@ -13,7 +13,7 @@ var legendes = [
     " Il n’y a qu’une seule réussite : arriver à vivre sa vie comme on l’entend.",  // alicia
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" ,        // asia
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx" ,        // axel
-    "Tous seul on va plus vite , ensemble on vas plus loin @plus <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10' target='_blank'>:) </a>" ,        // fredd
+    "Tous seul on va plus vite , ensemble on vas plus loin. @plus  <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10' target='_blank'>:) </a>" ,        // fredd
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx",         // luka
