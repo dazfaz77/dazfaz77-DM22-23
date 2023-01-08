@@ -13,13 +13,13 @@ var legendes = [
     " Il n’y a qu’une seule réussite : arriver à vivre sa vie comme on l’entend.",  // alicia
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" ,        // asia
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx" ,        // axel
-    "Tous seul on va vite , ensemble on vas <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10'>p</a>lus loin..." ,        // fredd
+    "Tous seul on va plus vite , ensemble on vas plus loin @plus <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10' target='_blank'>:) </a>" ,        // fredd
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx",         // luka
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxx"  ,      // kevin
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxx"  ,       // mehdi
-    "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre..."  , // najet
+    "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... nadjet ghandi"  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxx",          // tom
     "Rien n'est Impossible"  , // yanis
@@ -58,20 +58,51 @@ function imgPrecedente(){
 
 // met à jour l'attribut src de la balise image avec le chemin
 // d'image stocké dans la case imgActuelle du tableau (soit 0 soit 1 soit 2 soit 3)
-function majImage(){
-    console.log(imgActuelle,images[imgActuelle]);
-    diaporama.className="";
-    diaporama.style.opacity=0;
-    setTimeout(function(){
-        diaporama.className="animate__animated animate__rollIn";
-        image.setAttribute("src",images[imgActuelle]);
-        legende.innerHTML=legendes[imgActuelle];
-    },100);
-}
-
+function majImage() {
+    console.log(imgActuelle, images[imgActuelle]);
+    diaporama.className = "animate__animated animate__fadeOut";
+    setTimeout(function() {
+      image.setAttribute("src", images[imgActuelle]);
+      legende.innerHTML = legendes[imgActuelle];
+      diaporama.className = "animate__animated animate__fadeIn animate__delay-1.5s";
+    }, 1500);
+  }
 function changeColor() {
    // Génère une couleur aléatoire
    let color = '#'+Math.floor(Math.random()*16777215).toString(16);
    // Modifie la couleur de fond de l'élément "diaporama"
    document.getElementById("diaporama").style.backgroundColor = color;
+
 }
+
+const fonds = [
+    '/backgroungimage/1.png','/backgroungimage/5.png','/backgroungimage/6.png','/backgroungimage/7.png','/backgroungimage/9.png','/backgroungimage/10.png','/backgroungimage/11.png','/backgroungimage/12.png','/backgroungimage/13.png','/backgroungimage/14.png','/backgroungimage/15.png','/backgroungimage/20.png','/backgroungimage/23.png','/backgroungimage/26.png','/backgroungimage/29.png','/backgroungimage/30.png','/backgroungimage/31.png','/backgroungimage/32.png','/backgroungimage/33.png','/backgroungimage/36.png',
+    '/backgroungimage/37.png','/backgroungimage/40.png','/backgroungimage/51.png','/backgroungimage/52.png','/backgroungimage/53.png',
+    '/backgroungimage/3.jpg','/backgroungimage/4.jpg','/backgroungimage/16.jpg','/backgroungimage/17.jpg','/backgroungimage/18.jpg',
+    '/backgroungimage/21.jpg','/backgroungimage/24.jpg','/backgroungimage/25.jpg','/backgroungimage/27.jpg','/backgroungimage/28.jpg',
+    '/backgroungimage/35.jpg','/backgroungimage/38.jpg','/backgroungimage/39.jpg','/backgroungimage/41.jpg','/backgroungimage/42.jpg',
+    '/backgroungimage/43.jpg','/backgroungimage/44.jpg','/backgroungimage/45.jpg','/backgroungimage/46.jpg','/backgroungimage/47.jpg',
+    '/backgroungimage/48.jpg','/backgroungimage/49.jpg','/backgroungimage/50.jpg','/backgroungimage/54.jpg',
+    
+    
+    
+  ];
+  
+  const fond = document.querySelector('#fond');
+
+  let fondActuel = 0;
+  let timeoutID = null;
+  
+  fond.addEventListener('click', () => {
+    fond.style.backgroundImage = `url(${fonds[fondActuel]})`;
+    fondActuel = (fondActuel + 1) % fonds.length;
+  
+    if (timeoutID) {
+      clearTimeout(timeoutID);
+    }
+  
+    timeoutID = setTimeout(() => {
+      fond.style.backgroundImage = 'none';
+    }, 1500);
+    
+      });

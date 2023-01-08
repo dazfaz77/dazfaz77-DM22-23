@@ -11,13 +11,14 @@ body{
     
 
 #fond {
-    
-    background-color: black;
-    
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 50%;
 
-}
-  
-   
+    
+  }
+
+ 
 
 body img{
     background-image: url(img/2.png);
@@ -35,6 +36,7 @@ body img{
     box-shadow: 0px 0px 5px 5px rgb(213, 205, 164);
     position:relative;
     border-radius: 80%;
+    
     
 
 }
@@ -119,6 +121,13 @@ a {
         box-shadow: 0 -4px 6px rgba(255, 197, 143, 0.5), 0 2px 4px rgba(255, 197, 143, 0.3);
     box-shadow: 0 4px 6px rgba(255, 197, 143, 0.5), 0 -2px 4px rgba(255, 197, 143, 0.3);
     }
+    #fond {
+        background-position: center;
+     background-repeat: no-repeat;
+     background-size:  300px;
+ 
+     
+   }
 }
 
 
