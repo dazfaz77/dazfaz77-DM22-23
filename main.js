@@ -63,8 +63,8 @@ function majImage() {
     setTimeout(function() {
       image.setAttribute("src", images[imgActuelle]);
       legende.innerHTML = legendes[imgActuelle];
-      diaporama.className = "animate__animated animate__fadeIn animate__delay-1.5s";
-    }, 1500);
+      diaporama.className = "animate__animated animate__fadeIn animate";
+    }, 500);
   }
 /*function changeColor() {
    // Génère une couleur aléatoire
