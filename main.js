@@ -9,10 +9,10 @@ var images = ["img/rayane.png","img/Alicia.png","img/amal.png","img/asia.png","i
 // tableau listant toutes les légendes
 var legendes = [
     "Se pardonner et s’accepter tel que l’on est,voila ce que signifie être fort.", // rayane
-    "xxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",        // alicia
+    "Si personne ne déteste votre travail, personne ne l’aime vraiment non plus.",        // alicia
     " Il n’y a qu’une seule réussite : arriver à vivre sa vie comme on l’entend.",  // alicia
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" ,        // asia
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx" ,        // axel
+    "Queen" ,        // axel
     "Tous seul on va plus vite , ensemble on vas plus loin. @plus  <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10' target='_blank'>:) </a>" ,        // fredd
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
@@ -21,7 +21,7 @@ var legendes = [
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxx"  ,       // mehdi
     "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... nadjet ghandi"  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxx",          // tom
+    "Ne change pour personne, ta personnalité fait ta force",          // tom
     "Rien n'est Impossible"  , // yanis
     
 ];
@@ -37,7 +37,6 @@ var legende = document.querySelector("#diaporama #legende");
 
 // on applique la 1ere image par défaut :
 majImage();
-
 // fonction appelée lors d'un clic sur le bouton #btDroite
 function imgSuivante(){
     // on passe à l'image suivante
