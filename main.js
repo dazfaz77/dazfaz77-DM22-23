@@ -19,7 +19,7 @@ var legendes = [
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx",         // luka
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxx"  ,      // kevin
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxx"  ,       // mehdi
-    "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... nadjet ghandi"  , // najet
+    "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... "  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
     "Ne change pour personne, ta personnalité fait ta force",          // tom
     "Rien n'est Impossible"  , // yanis
