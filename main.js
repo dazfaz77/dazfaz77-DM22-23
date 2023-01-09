@@ -63,18 +63,18 @@ function majImage() {
     setTimeout(function() {
       image.setAttribute("src", images[imgActuelle]);
       legende.innerHTML = legendes[imgActuelle];
-      diaporama.className = "animate__animated animate__fadeIn animate";
-    }, 500);
+      diaporama.className = "animate__animated animate__fadeIn animate__delay-1.5s";
+    }, 1500);
   }
-/*function changeColor() {
+function changeColor() {
    // Génère une couleur aléatoire
    let color = '#'+Math.floor(Math.random()*16777215).toString(16);
    // Modifie la couleur de fond de l'élément "diaporama"
    document.getElementById("diaporama").style.backgroundColor = color;
 
-}*/
+}
 
-const fonds = [
+/*const fonds = [
     'backgroungimage/1.png','backgroungimage/5.png','backgroungimage/6.png','backgroungimage/7.png','backgroungimage/9.png','backgroungimage/10.png','backgroungimage/11.png','backgroungimage/12.png','backgroungimage/13.png','backgroungimage/14.png','backgroungimage/15.png','backgroungimage/20.png','backgroungimage/23.png','backgroungimage/26.png','backgroungimage/29.png','backgroungimage/30.png','backgroungimage/31.png','backgroungimage/32.png','backgroungimage/33.png','backgroungimage/36.png',
     'backgroungimage/37.png','backgroungimage/40.png','backgroungimage/51.png','backgroungimage/52.png','backgroungimage/53.png',
     'backgroungimage/3.jpg','backgroungimage/4.jpg','backgroungimage/16.jpg','backgroungimage/17.jpg','backgroungimage/18.jpg',
@@ -85,7 +85,7 @@ const fonds = [
     
     
     
-  ];
+  ];*/
   
   const fond = document.querySelector('#fond');
 
