@@ -16,9 +16,9 @@ var legendes = [
     "Tous seul on va plus vite , ensemble on vas plus loin. @plus  <a href='https://www.youtube.com/watch?v=zF6BxDIRHjo&list=RDTMl0LLp2oQM&index=10' target='_blank'>:) </a>" ,        // fredd
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxx",         // luka
+    "la vie est courte alors profite de chaque instant",         // luka
     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxx"  ,      // kevin
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxx"  ,       // mehdi
+    "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles"  ,       // mehdi
     "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... "  , // najet
     "Tous arrive à point à qui sait attendre." , // soumaya
     "Ne change pour personne, ta personnalité fait ta force",          // tom
