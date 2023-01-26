@@ -1,41 +1,91 @@
-html,body{
+@keyframes slide {
+    from {
+        background-position: -10% 0;
+    }
+    to {
+        background-position: 120% 0;
+    }
+}
+body{
     height:100%;
 }
 
-body{
+@keyframes moveRightToLeft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+body {
+    
+    
+    background-color: black;
+    background-repeat: repeat-x;
+    animation: slide 15s linear infinite 1s;
+    
+    
+
+}
+
+.container{
+   
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
     
+#titreDiapo {
+    color:rgb(213, 205, 164);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
 #fond {
-       background-position: center;
+  
     background-repeat: no-repeat;
-    background-size: cover 50%;
-
-    
+    background-size: ;
+    background-position: center;
+    overflow:hidden;
+  }
+  #fond img {
+    border-radius: 50%;
   }
 
  
 
-body img{
-    /*background-image: url(img/2c.png);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0px 40px;
-    
 
-
-}
 
 #diaporama{
     max-width:100%;
     margin:5%;
     box-shadow: 0px 0px 5px 5px rgb(213, 205, 164);
     position:relative;
-    border-radius: 80%;
+    border-radius: 0%;
     
     
 
@@ -100,6 +150,50 @@ a {
     color: red;
 }
 
+
+
+footer {
+    background-color: rgba(247, 10, 58, 0.334);
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2px;
+    
+}
+    
+  
+   
+
+
+  #footer-img {
+   border-radius: 50%;
+    width: 20%;
+  animation: moveRightToLeft 10s linear infinite;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+}
+
+    
+
+#copy {
+    float: right;
+    text-align: right;
+    margin-left:auto;
+ }
+
+
+
+
+
+
+
+
+
+
+
 @media only all and (max-width:900px){
 
     #body{max-width:100%;
@@ -130,4 +224,8 @@ a {
    }
 }
 
+
+
+ 
+ 
 
