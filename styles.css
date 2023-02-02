@@ -3,9 +3,10 @@
         background-position: -10% 0;
     }
     to {
-        background-position: 120% 0;
+        background-position: 130% 0;
     }
 }
+
 body{
     height:100%;
 }
@@ -38,7 +39,7 @@ body{
 body {
     
     
-    background-color: black;
+  background-color: rgb(132, 132, 126);
     background-repeat: repeat-x;
     animation: slide 15s linear infinite 1s;
     
@@ -153,13 +154,14 @@ a {
 
 
 footer {
-    background-color: rgba(247, 10, 58, 0.334);
+    background-color: rgb(213, 205, 164);
     text-align: center;
     padding: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 2px;
+    box-shadow: 5px 5px 5px white;
     
 }
     

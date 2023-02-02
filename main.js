@@ -6,8 +6,8 @@ var images = ["img/rayane.png","img/Alicia.png","img/amal.png","img/asia.png","i
 ,"img/lea.png","img/luka.png","img/kevin.png","img/mehdi.png","img/najet.png","img/soumaya.png","img/tom.png","img/yanis.png"];
 var currentImg = 0;
 // tableau listant toutes les images de fond
-var imagesFond = ["/img2/rayane.png","img2/alicia3.png","img2/amal.png","","img2/axel2.png","img2/fredd.jpg","img2/khaoula.png","img2/lea.png"
-,"img2/luckas.png","img2/kevin2.png","img2/mehdi.png","img2/najet2.PNG","img2/soumaia.png","img2/tom.jpg","img2/yanis.jpg"];
+var imagesFond = ["img2/rayane.png","img2/alicia3.png","img2/amal.png","","img2/axel2.png","img2/femme.jpg","img2/khaoula.png","img2/lea.png"
+,"img2/luckas.png","img2/kevin2.png","img2/mehdi.png","img2/najet2.PNG","img2/soumaia.png","img2/tom.png","img2/yanis.jpg"];
 
 
 // tableau listant toutes les légendes
