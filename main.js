@@ -21,7 +21,7 @@ var legendes = [
     "Les perdants trouvent des excuses, les gagnants des moyens." , //kahoula
     "Il faut toujours un coup de folie pour bâtir un destin.",  //lea
     "la vie est courte alors profite de chaque instant",         // luka
-    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxxxxxxxxx"  ,      // kevin
+    "Que la force soit avec toi"  ,      // kevin
     "Il faut toujours viser la lune, car même en cas d'échec, on atterrit dans les étoiles"  ,       // mehdi
     "La vie est un mystère qu'il faut vivre  et non un problème qu'il faut résoudre... "  , // najet
     "Tout arrive à point à qui sait attendre." , // soumaya
